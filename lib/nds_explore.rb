@@ -18,6 +18,7 @@ end
 #end
 
 def print_first_directors_movie_titles
+<<<<<<< HEAD
   row_index = 0
   database = directors_database
   while row_index < database[0][:movies].length
@@ -34,6 +35,18 @@ print_first_directors_movie_titles
   
   #JUST NEED TO CYCLE THROUGH THE COLUMN ARRAY
   #directors_database[0][:movies][0][:title] #=> "Jaws" 
+=======
+  #row_index = 0 
+  #while row_index < directors_database.length do
+    #puts directors_database[row_index][:title]
+    #row_index += 1
+  #end
+  directors_database[0]
+end
+
+
+
+>>>>>>> 20ead685da52bcc48059773ce6c5bbdeb9ee1c02
 
 #[{:name=>"Stephen Spielberg",
   #[{:title=>"Jaws",

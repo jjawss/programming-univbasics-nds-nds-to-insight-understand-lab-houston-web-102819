@@ -19,6 +19,7 @@ end
         # Release Year
 #director_database[0][]
 
+<<<<<<< HEAD
 [{:name=>"Stephen Spielberg",
   :movies=>
    [{:title=>"Jaws",
@@ -253,3 +254,6 @@ end
      :studio=>"Buena Vista",
      :worldwide_gross=>58620973,
      :release_year=>1996}]}]
+=======
+puts directors_database
+>>>>>>> 20ead685da52bcc48059773ce6c5bbdeb9ee1c02
